@@ -95,7 +95,7 @@ public class AddFirstProduct extends Parameters {
 	}
 	
 	@Test(priority = 3)
-	public void addfirstProduct() throws InterruptedException {
+	public void addFirstProduct() throws InterruptedException {
 		
 		//Fill Search Input Randomly From Phone Type List
 		WebElement searchInput = driver.findElement(By.id("js-site-search-input"));
